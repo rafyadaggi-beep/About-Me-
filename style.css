@@ -1,112 +1,107 @@
+/* ===== BACKGROUND IMAGE ===== */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Comic Sans MS', cursive;
-
-  /* BACKGROUND IMAGE LINK GOES HERE */
-  background-image: url("background.png");
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive;
+    
+    /* PUT YOUR BACKGROUND IMAGE LINK BELOW */
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* Main layout */
+/* Main Container */
 .container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-  position: relative;
-  z-index: 2;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
 }
 
 /* Header */
 .main-header {
-  text-align: center;
-  font-size: 50px;
-  color: white;
+    text-align: center;
+    font-size: 50px;
+    color: white;
 }
 
 .header-img {
-  display: block;
-  margin: 0 auto;
-  width: 400px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
 }
 
-/* Profile */
+/* Profile Section */
 .profile-section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
+/* Profile Frame */
 .pfp-frame {
-  position: relative;
-  width: 220px;
+    position: relative;
+    width: 220px;
 }
 
 .frame {
-  width: 100%;
+    width: 100%;
 }
 
 .pfp {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 160px;
-  border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 160px;
+    border-radius: 15px;
 }
 
 /* Info Box */
 .info-box {
-  background-color: rgba(130, 160, 180, 0.9);
-  padding: 20px;
-  border-radius: 20px;
-  color: white;
-  max-width: 500px;
+    background-color: rgba(150, 180, 200, 0.85);
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+    color: white;
+    font-size: 18px;
 }
 
-/* More Section */
+/* More About Me */
 .more-title {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 40px;
-  color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
 }
 
 .more-box {
-  background-color: rgba(110, 140, 160, 0.95);
-  padding: 40px;
-  border-radius: 25px;
-  font-size: 35px;
-  text-align: center;
+    background-color: rgba(120, 150, 170, 0.9);
+    padding: 40px;
+    border-radius: 25px;
+    font-size: 40px;
+    text-align: center;
+    color: #444;
 }
 
 /* Decorations */
 
 .bubbles {
-  position: fixed;
-  left: 0;
-  bottom: 100px;
-  width: 120px;
-  z-index: 1;
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+    width: 120px;
 }
 
-.ribbon {
-  position: fixed;
-  right: 0;
-  top: 200px;
-  width: 70px;
-  z-index: 1;
+.thegang {
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    width: 250px;
 }
 
-.bottom-characters {
-  position: fixed;
-  bottom: 0;
-  right: 40px;
-  width: 250px;
-  z-index: 1;
+.bow {
+    position: fixed;
+    right: 0;
+    top: 200px;
+    width: 60px;
 }
