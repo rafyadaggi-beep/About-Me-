@@ -1,1 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive;
 
+  /* BACKGROUND IMAGE LINK GOES HERE */
+  background-image: url("YOUR_BACKGROUND_IMAGE_LINK_HERE");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Main layout */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Header */
+.main-header {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.header-img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+/* Profile */
+.profile-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pfp-frame {
+  position: relative;
+  width: 220px;
+}
+
+.frame {
+  width: 100%;
+}
+
+.pfp {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 160px;
+  border-radius: 20px;
+}
+
+/* Info Box */
+.info-box {
+  background-color: rgba(130, 160, 180, 0.9);
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  max-width: 500px;
+}
+
+/* More Section */
+.more-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  color: white;
+}
+
+.more-box {
+  background-color: rgba(110, 140, 160, 0.95);
+  padding: 40px;
+  border-radius: 25px;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* Decorations */
+
+.bubbles {
+  position: fixed;
+  left: 0;
+  bottom: 100px;
+  width: 120px;
+  z-index: 1;
+}
+
+.ribbon {
+  position: fixed;
+  right: 0;
+  top: 200px;
+  width: 70px;
+  z-index: 1;
+}
+
+.bottom-characters {
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  width: 250px;
+  z-index: 1;
+}
