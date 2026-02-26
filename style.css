@@ -1,8 +1,10 @@
 /* ===== BACKGROUND IMAGE ===== */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Baloo 2', cursive;
     
     /* PUT YOUR BACKGROUND IMAGE LINK BELOW */
     background-image: url("background.png");
