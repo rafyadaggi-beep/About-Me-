@@ -1,7 +1,7 @@
-/* ===== BACKGROUND IMAGE ===== */
+/* Import Google Font at the very top */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
 
-
+/* ===== BACKGROUND IMAGE ===== */
 body {
     margin: 0;
     padding: 0;
