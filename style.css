@@ -4,7 +4,7 @@ body {
   font-family: 'Comic Sans MS', cursive;
 
   /* BACKGROUND IMAGE LINK GOES HERE */
-  background-image: url("YOUR_BACKGROUND_IMAGE_LINK_HERE");
+  background-image: url("background.png");
 
   background-size: cover;
   background-repeat: no-repeat;
